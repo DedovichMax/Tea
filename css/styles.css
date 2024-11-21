@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1318px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    margin: 18px 0 19px 6px;
+}
+
+.slider {
+    padding: 72px 0 36px 0;
+}
+
+.grid {
+    padding: 36px 0 36px 0;
+}
+
+.btn {
+    border: solid 1px #007BFF;
+    color: #007BFF;
+}
+
+.none {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-bottom: 26px;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn.btn-primary {
+    color: white;
+    width: 170px;
+    height: 38px
+}
+
+.accordions {
+    padding: 36px 0 36px 0;
+
+    margin: 0 auto;
+}
+
+.ui-accordion {
+    max-width: 856px;
+
+    margin: 0 auto;
+}
+
+.accordion-button {
+    background: #076BFF;
+    margin-bottom: 16px;
+    border-radius: 30px;
+    height: 69px;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #076BFF;
+    height: 69px;
+}
+
+.h3 {
+    border: none;
+
+}
+
+.accordion-item:first-of-type > .accordion-header .accordion-button {
+    border-radius: 30px;
+}
+
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+    border-radius: 30px;
+}
+
+.accordion-collapse {
+    margin-bottom: 16px;
+}
+
+.ui-icon {
+    float: right;
+    margin-top: 0;
+}
+
+
+.ui-state-active {
+    border-radius: 30px;
+}
+
+
+
+
+
+.ui-accordion .ui-accordion-header {
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 15px;
+    background: #076BFF;
+    color: white;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.ui-widget-content {
+    border: none;
+
+}
+
+.carousel-control-next {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-self: center;
+    right: 25px;
+    border: 2px solid #076BFF;
+    background-color: white;
+
+
+}
+
+.carousel-control-next-ico {
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #076BFF;
+    border-right: 5px solid #076BFF;
+    margin-right: 10px;
+    transform: rotate(45deg);
+}
+
+.carousel-control-prev {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-self: center;
+    left: 25px;
+    border: 2px solid #076BFF;
+    background-color: white;
+}
+
+.carousel-control-prev-ic {
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #076BFF;
+    border-right: 5px solid #076BFF;
+    margin-left: 10px;
+    transform: rotate(225deg);
+}
+
+.ui-icon-triangle-1-e {
+    background-position: initial;
+    transform: rotate(180deg);
+}
+
+
+
+
+.ui-icon-triangle-1-s {
+    background-position: initial;
+}
+
+
+
+    /*.ul-state-hover .ui-icon {
+        display: none;
+    }*/
+
+.form {
+    max-width: 636px;
+    margin: 0 auto;
+}
+
+
+.col-7 {
+    width: 52%;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.col-auto {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.footer {
+    padding: 20px 0 20px 15px;
+    background: #F8F9FA;
+}
+
+.ui-state-active .ui-icon {
+    background-image: url("../images/group.png");
+    width: 20px;
+    transform: rotate(360deg)
+
+}
+
+.ui-state-hover .ui-icon {
+    background-image: url("../images/group.png");
+    width: 20px;
+
+}
+.ui-icon {
+    background-image: url("../images/group.png");
+    width: 20px;
+    transform: rotate(180deg)
+}
+
+
+.form2 {
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+p {
+    text-align: center;
+}
